@@ -1,0 +1,22 @@
+# === Python cache files ===
+__pycache__/
+*.py[cod]
+*.pyo
+
+# === Virtual environment ===
+.venv/
+env/
+venv/
+
+# === Environment & key files ===
+*.env
+encryption.key
+
+# === VS Code settings (if you use it) ===
+.vscode/
+
+# === macOS system files ===
+.DS_Store
+
+# === Log files ===
+*.log
