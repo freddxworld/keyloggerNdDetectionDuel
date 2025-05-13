@@ -1,6 +1,11 @@
 # keyloggerNdDetectionDuel
 ## Todo
 - encrypt key logger
+- add code to encrypt logs
+- add code to decrypt logs
+
+
+
 ✅ Keylogger & Detection Duel — Project Roadmap
 🟥 Phase 1: Set Up Your Project
 ## DONE
